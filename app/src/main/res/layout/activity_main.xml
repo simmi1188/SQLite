@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="@string/registration"
+        android:background="@color/colorPrimary"
+        android:titleTextColor="@color/black">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardCornerRadius="12dp"
+        android:id="@+id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:paddingLeft="7dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/roll_no"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:paddingLeft="7dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/name"
+            android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:textSize="24dp"
+                android:paddingLeft="7dp"
+
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:id="@+id/marks"
+                android:text="@string/marks"/>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycle"
+        android:background="@color/bluish">
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lblNoRecords"
+        android:text="@string/no_result_found"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
+
+

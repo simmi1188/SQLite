@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="register">Register</string>
+    <string name="registration">Registration Form</string>
+    <string name="regis">Registration</string>
+    <string name="id_fill">Id should be filled</string>
+    <string name="name_fill">Name entry shuold be filled</string>
+    <string name="mail_fill">Invalid Gmail </string>
+    <string name="pass_fill">Password must contain atleast one upper case value</string>
+    <string name="phone_fill">contain 10 digits</string>
+    <string name="roll_no">ID</string>
+
+    <string name="date">date_Fill</string>
+    <string name="name">Name</string>
+    <string name="marks">Marks</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="all">All</string>
+    <string name="pass">Pass</string>
+    <string name="fail">Fail</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_Cancel">Cancel</string>
+    <string name="delete">Are you sure you want to delete</string>
+    <string name="deleteToast">Delete Successfully</string>
+    <string name="RegToast">Registration Successfull</string>
+    <string name="dateError">date Should be filled</string>
+    <string name="editToast">Edit Successfull</string>
+    <string name="edit">Edit</string>
+
+</resources>
